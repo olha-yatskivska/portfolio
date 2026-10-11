@@ -1,4 +1,4 @@
-[Back](./)
+[Back to Main Page](../../README.md)
 
 # Pairwise + EP/BVA Testing: Practical Example 
 
@@ -37,7 +37,7 @@ See also:
 
 * **[Pairwise Testing Tools](https://olha-yatskivska.github.io/pairwise-tools.html)** - Collection of Online, Desktop and Console Tools
 
-* **Back to main Page**
+
 
 
 
