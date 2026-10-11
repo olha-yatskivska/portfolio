@@ -1,4 +1,4 @@
-[Back](./)
+[Back to Main Page](../../README.md)
 
 # State Transition Testing: Practical Examples
 
@@ -34,5 +34,5 @@ See also:
 * **[State Transition Testing](https://olha-yatskivska.github.io/state-transition.html)** - Summary of core concepts from ISTQB Advanced Test Analyst.
 * **[State Machine and Transition Diagrams](https://olha-yatskivska.github.io/state-transition-diagram.html)** - Links for the most popular tools.
 
-* **[Back to Main Page](./)**
+
 
