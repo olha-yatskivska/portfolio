@@ -174,6 +174,5 @@ See also:
 * **[State Machine and Transition Diagrams](https://olha-yatskivska.github.io/state-transition-diagram.html)** - Links for the most popular tools.
 
 
-**[Back to Main Page](./)**
 
 
