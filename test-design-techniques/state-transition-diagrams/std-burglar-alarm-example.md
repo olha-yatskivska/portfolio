@@ -170,7 +170,7 @@ Not covered in this example:
 See also:
 
 * **[State Transition Testing: Practice Examples](./README.md)** - More practical examples
-* **[State Transition Testing](https://olha-yatskivska.github.io/state-transition.htmll)** - Summary of the core concepts from ISTQB Advanced Test Analyst.
+* **[State Transition Testing](https://olha-yatskivska.github.io/state-transition.html)** - Summary of the core concepts from ISTQB Advanced Test Analyst.
 * **[State Machine and Transition Diagrams](https://olha-yatskivska.github.io/state-transition-diagram.html)** - Links for the most popular tools.
 
 
