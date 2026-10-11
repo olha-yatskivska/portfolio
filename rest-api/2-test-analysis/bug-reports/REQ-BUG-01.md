@@ -39,11 +39,13 @@
 
 ## 4. Description
 
-* Brief Description
-    * The ```GET /ping``` API documentation specifies a "Success 200" response, but the documented sample response block incorrectly displays ```HTTP/1.1 201 Created```
+#### Brief Description
 
-* Detailed Description
-   * In the Restful-Booker API documentation under the **Ping - HealthCheck** section, the section header and field table indicate a standard ```Success 200``` response. However, the code snippet example for the response displays ```HTTP/1.1 201 Created```. Furthermore, the description field labels "OK" as a "Default HTTP 201 response", introducing conflicting HTTP status codes.
+The ```GET /ping``` API documentation specifies a "Success 200" response, but the documented sample response block incorrectly displays ```HTTP/1.1 201 Created```
+
+#### Detailed Description
+
+In the Restful-Booker API documentation under the **Ping - HealthCheck** section, the section header and field table indicate a standard ```Success 200``` response. However, the code snippet example for the response displays ```HTTP/1.1 201 Created```. Furthermore, the description field labels "OK" as a "Default HTTP 201 response", introducing conflicting HTTP status codes.
 
 ---
 
