@@ -1,4 +1,4 @@
-[Back to Main Page](./)
+[Back to Main Page](../../README.md)
 
 # Classification Tree Technique: Practical Examples
 
