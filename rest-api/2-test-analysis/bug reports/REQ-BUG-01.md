@@ -97,7 +97,7 @@ Affected Users: External developers and test engineers integrating with the Ping
 ## 9. Attachments
 
 ### Screenshots/Images
- * Screenshot 1: [Attach-REQ-BUG-01.png]() - Highlighting the discrepancy between "Success 200" and "HTTP/1.1 201 Created" in the documentation.
+ * Screenshot 1: [Attach-REQ-BUG-01.png](./rest-api/2-test-analysis/bug reports/Attach-REQ-BUG-01.png) - Highlighting the discrepancy between "Success 200" and "HTTP/1.1 201 Created" in the documentation.
 
 
 ### Additional Files
@@ -109,14 +109,14 @@ Affected Users: External developers and test engineers integrating with the Ping
 
 ---
 ## 10. Additional Information   
-Root Cause (if known): [Optional: Developer analysis or QA observations]   
+Root Cause (if known): Likely a copy-paste error or misconfiguration in the apidoc source annotations where a 201 status code template was reused for a health check GET request. 
 
 ### Links & Traceability:
 
 * Requirement ID: API Doc Specification - HealthCheck Endpoint
 * Regression Info: No
 * Related Issues: [SCH-BUG-01]()
-* Notes: Likely a copy-paste error or misconfiguration in the ```apidoc``` source annotations where a 201 status code template was reused for a health check GET request.
+* Notes: Standard health check (GET /ping) endpoints should return 200 OK.
 ---
 ## 11. Resolution Tracking
 
@@ -130,6 +130,8 @@ Root Cause (if known): [Optional: Developer analysis or QA observations]
 | Closed Date | [DD/MM/YYYY] |
 
 ---
+
+```
 ## Severity & Priority Definitions
 
 ### Severity Levels:
@@ -146,3 +148,4 @@ Root Cause (if known): [Optional: Developer analysis or QA observations]
 * P2: Fix in upcoming sprint
 * P3: Fix when time permits
 
+```
