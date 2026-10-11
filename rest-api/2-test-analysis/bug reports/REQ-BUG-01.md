@@ -5,7 +5,7 @@
 | Field | Details |
 | :-- | :-- |
 | Bug ID | REQ-BUG-01 |
-| Title/Summary | Ping HealthCheck endpoint returns status HTTP 201 Created instead of 200 OK |
+| Title/Summary | Ping HealthCheck endpoint docummentation displays HTTP status 201 Created under Success 200 section|
 | Date Reported | 11/10/2026 |
 | Reported By | Yatskivska |
 | Assigned To | BA/PM |
@@ -16,9 +16,9 @@
 
 | Field | Details |
 | :-- | :-- |
-| Severity | ☐ Critical ☐ High ☑ Medium ☐ Low |
+| Severity | ☐ Critical ☐ High ☐ Medium ☐ Low |
 | Priority | ☐ P0 ☐ P1 ☐ P2 ☐ P3 |
-| Type | ☑  Functional ☐ Performance ☐ UI/UX ☐ Security ☑ Documentation |
+| Type | ☐  Functional ☐ Performance ☐ UI/UX ☐ Security ☑ Documentation |
 | Status | ☑ New ☐ Assigned ☐ In Progress ☐ Fixed ☐ Verified ☐ Closed |
 
 ---
