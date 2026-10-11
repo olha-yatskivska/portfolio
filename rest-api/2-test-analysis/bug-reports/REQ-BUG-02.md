@@ -39,10 +39,12 @@
 
 ## 4. Description
 
-* Brief Description
+#### Brief Description  
+
 The ```DeleteBooking``` documentation page lists a success response header of "Success 200", but the description and response snippet show ```HTTP/1.1 201 Created```. Additionally, the ```Url Parameter``` section incorrectly describes the ```id``` field as the ID for a booking you want to update rather than delete.
 
-* Detailed Description
+#### Detailed Description 
+
 In the Restful-Booker API documentation under the Booking / DeleteBooking section, two documentation inconsistencies exist:
 
 1. Under the Success 200 response block, the field description states "Default HTTP 201 response" and the sample response code block displays ```HTTP/1.1 201 Created```.
@@ -106,7 +108,7 @@ Affected Users: External developers and test analysts integrating with the ```De
 ## 9. Attachments
 
 ### Screenshots/Images
- * Screenshot 1: [Attach-REQ-BUG-02.png](./rest-api/2-test-analysis/bug reports/Attach-REQ-BUG-02.png) - Annotations pointing out the conflicting Success 200 vs 201 Created status and incorrect id description under DeleteBooking
+ * Screenshot 1: [Attach-REQ-BUG-02](./Attach-REQ-BUG-02.png) - Annotations pointing out the conflicting Success 200 vs 201 Created status and incorrect id description under DeleteBooking
 
 
 ### Additional Files
