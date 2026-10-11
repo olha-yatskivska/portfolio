@@ -40,10 +40,10 @@
 ## 4. Description
 
 * Brief Description
-The ```GET /ping``` API documentation specifies a "Success 200" response, but the documented sample response block incorrectly displays ```HTTP/1.1 201 Created```
+    * The ```GET /ping``` API documentation specifies a "Success 200" response, but the documented sample response block incorrectly displays ```HTTP/1.1 201 Created```
 
 * Detailed Description
-In the Restful-Booker API documentation under the **Ping - HealthCheck** section, the section header and field table indicate a standard ```Success 200``` response. However, the code snippet example for the response displays ```HTTP/1.1 201 Created```. Furthermore, the description field labels "OK" as a "Default HTTP 201 response", introducing conflicting HTTP status codes.
+   * In the Restful-Booker API documentation under the **Ping - HealthCheck** section, the section header and field table indicate a standard ```Success 200``` response. However, the code snippet example for the response displays ```HTTP/1.1 201 Created```. Furthermore, the description field labels "OK" as a "Default HTTP 201 response", introducing conflicting HTTP status codes.
 
 ---
 
@@ -97,7 +97,7 @@ Affected Users: External developers and test engineers integrating with the Ping
 ## 9. Attachments
 
 ### Screenshots/Images
- * Screenshot 1: [Attach-REQ-BUG-01.png](./rest-api/2-test-analysis/bug reports/Attach-REQ-BUG-01.png) - Highlighting the discrepancy between "Success 200" and "HTTP/1.1 201 Created" in the documentation.
+ * Screenshot 1: [Attach-REQ-BUG-01](./Attach-REQ-BUG-01.png) - Highlighting the discrepancy between "Success 200" and "HTTP/1.1 201 Created" in the documentation.
 
 
 ### Additional Files
@@ -108,6 +108,7 @@ Affected Users: External developers and test engineers integrating with the Ping
 
 
 ---
+
 ## 10. Additional Information   
 Root Cause (if known): Likely a copy-paste error or misconfiguration in the apidoc source annotations where a 201 status code template was reused for a health check GET request. 
 
@@ -117,7 +118,9 @@ Root Cause (if known): Likely a copy-paste error or misconfiguration in the apid
 * Regression Info: No
 * Related Issues: [SCH-BUG-01]()
 * Notes: Standard health check (GET /ping) endpoints should return 200 OK.
+
 ---
+
 ## 11. Resolution Tracking
 
 | Field | Details |
