@@ -29,11 +29,11 @@ The **10 skipped conditions** evaluate state-changing operations (`PUT`, `PATCH`
 ### Execution Evidence
 
 #### Postman Successful Test Run Overview
-![Postman Test Run](./rest-api/4-test-implementation/Postman_test_run.png)  
+![Postman Test Run](./Postman_test_run.png)  
 *Figure 1: Full Postman runner output showing successful contract schema validations and header checks for JSON endpoints.*
 
 #### Postman Failed Test Cases & Schema Mismatches
-![Postman Failed Test Cases](./rest-api/4-test-implementation/Postman_failed_test_cases.png)  
+![Postman Failed Test Cases](./Postman_failed_test_cases.png)  
 *Figure 2: Execution run highlighting contract assertions failing on incorrect status codes (expecting 400 Bad Request but receiving 200 OK or 500 Internal Server Error).*
 
 ---
