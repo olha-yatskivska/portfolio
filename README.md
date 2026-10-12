@@ -8,7 +8,7 @@
 
 ---
  
-Specialized in **Web/SaaS applications**, **REST API** testing, test design techniques, and **root-cause defect analysis** using system logs and **SQL** with foundational skills in **Playwright**, Pytest, and Python. 
+Specialized in **Web/SaaS applications**, **REST API** testing, test design techniques, and **root-cause defect analysis** using system logs, **SQL** and **GenAI** with foundational skills in **Playwright**, Pytest, and Python. 
 
 ---
 
