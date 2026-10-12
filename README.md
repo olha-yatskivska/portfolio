@@ -1,18 +1,23 @@
 # QA Test Analysis and Design Portfolio
 
+**Middle QA Engineer** | **Certified ISTQB CTFL** | **Google AI Professional**
 
-* Detail-oriented **Middle QA Engineer** with 5+ years of commercial experience in fast-paced Agile (Scrum/Kanban) environments.
-* Specialized in AdTech **Web/SaaS applications**, **REST API** testing, test design techniques, and **root-cause defect analysis** using system logs and **SQL**.
-* **Certified in ISTQB CTFL** with foundational skills in **Playwright**, Pytest, and Python.
+*5+ years of commercial experience in Agile (Scrum/Kanban) environments*
+
+📄 **[View My Resume / CV](https://github.com/olha-yatskivska/portfolio/blob/main/Olha_Yatskivska_Middle_QA_Engineer.pdf)**
+
+---
+ 
+Specialized in **Web/SaaS applications**, **REST API** testing, test design techniques, and **root-cause defect analysis** using system logs and **SQL** with foundational skills in **Playwright**, Pytest, and Python. 
 
 ---
 
-I want to show a deep focus on **black-box test design techniques**. Nowadays, when you can simply generate any app or artifact for repetitive work using **LLMs** - such as detailed test cases, test conditions, requirements, reports, and automation scripts - the main challenge is how to **minimize this testware explosion**. 
+This portfolio is focused on **black-box test design techniques**. Using **LLMs** speeds up test creation - like drafting test cases, conditions, and scripts - to save time on daily testing activities. However, the real challenge is preventing "testware explosion": flooding your pipeline with bloated, redundant tests.
 
 The answer lies in mastering core test design:
 
 * Optimized Coverage: Combining techniques to determine the set of test cases needed for minimum test coverage before expanding based on **risk-based analysis**.
-* **AI-Assisted** Efficiency: Utilizing custom **AI tooling**, such as my vibe-coded Detailed Test Case Generator [[TestFlow Analyst Studio]](https://github.com/olha-yatskivska/detailed-test-cases-generator) (built via **Google AI Studio**), to rapidly convert combinatorial models into fully structured, high-value test scenarios.
+* **AI-Assisted** Efficiency: Utilizing custom **AI tooling**, such as my vibe-coded Detailed Test Case Generator [TestFlow Analyst Studio](https://github.com/olha-yatskivska/detailed-test-cases-generator) (built via **Google AI Studio**), to rapidly convert combinatorial models into fully structured, high-value test scenarios.
 
 
 This portfolio is built based on the **ISTQB Advanced Test Analyst syllabus**. Future plans include adding new test design techniques from the latest ISTQB Advanced Test Analyst (v4.0) syllabus, such as metamorphic, guided, and adaptive random testing.
