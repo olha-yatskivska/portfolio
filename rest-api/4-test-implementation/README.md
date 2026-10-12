@@ -1,7 +1,7 @@
 ## Contract Testing (IN PROGRESS)
 
 ### Overview & Objective
-This section covers the API contract testing phase for the **Restful Booker API**, focusing on schema validation, HTTP response code compliance, data type constraints, and payload serialization across JSON, XML, and URL-encoded formats.
+This section covers the API contract testing phase for the **Restful Booker API**, focusing on schema validation, HTTP response code compliance, data type constraints.
 
 ---
 
