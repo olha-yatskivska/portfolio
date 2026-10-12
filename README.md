@@ -7,12 +7,12 @@
 
 ---
 
-I want to show a deep focus on **black-box test design techniques**. Nowadays, when you can simply generate any app or artifact for repetitive work using **LLMs** - such as detailed test cases, test conditions, requirements, and automation scripts - the main challenge is how to **minimize this testware explosion**. 
+I want to show a deep focus on **black-box test design techniques**. Nowadays, when you can simply generate any app or artifact for repetitive work using **LLMs** - such as detailed test cases, test conditions, requirements, reports, and automation scripts - the main challenge is how to **minimize this testware explosion**. 
 
 The answer lies in mastering core test design:
 
 * Optimized Coverage: Combining techniques to determine the set of test cases needed for minimum test coverage before expanding based on **risk-based analysis**.
-* 
+  
 * **AI-Assisted** Efficiency: Utilizing custom **AI tooling**, such as my vibe-coded Detailed Test Case Generator [[TestFlow Analyst Studio]](https://github.com/olha-yatskivska/detailed-test-cases-generator) (built via **Google AI Studio**), to rapidly convert combinatorial models into fully structured, high-value test scenarios.
 
 
