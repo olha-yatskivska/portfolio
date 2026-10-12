@@ -4,7 +4,7 @@
 
 *5+ years of commercial experience in Agile (Scrum/Kanban) environments*
 
-📄 **[View My Resume / CV](https://github.com/olha-yatskivska/portfolio/blob/main/Olha_Yatskivska_Middle_QA_Engineer.pdf)**
+📄 **[View My CV](https://github.com/olha-yatskivska/portfolio/blob/main/Olha_Yatskivska_Middle_QA_Engineer.pdf)**
 
 ---
  
