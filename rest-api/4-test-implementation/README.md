@@ -7,7 +7,7 @@ This section covers the API contract testing phase for the **Restful Booker API*
 
 ### Interactive Artifacts
 * **Google Sheets Analysis:** [View Test Analysis Online](https://docs.google.com/spreadsheets/d/1JyiP7P8-y5kIP1tJ0QuwbAnAP90Btph4AVkKAvTaxKc/edit?usp=sharing)
-* **Postman Collection:** [Restful_Booker_API.postman_collection.json](./rest-api/4-test-implementation/Restful_Booker_API.postman_collection.json)
+* **Postman Collection:** [Restful_Booker_API_postman_collection.json](./rest-api/4-test-implementation/Restful_Booker_API_postman_collection.json)
 
 ---
 
