@@ -1,7 +1,7 @@
-[Back to Main Page](./)
+[Back to Main Page](../../README.md)
 
 
-## Tricky Decision Table Terms
+## Tricky Decision Table Terms: Practical Examples
 
 
 1. **Limited-entry decision tables**: The most common type of DT where conditions are just True/False or Yes/No. [Tax-system-example](./tax-system-example.md)

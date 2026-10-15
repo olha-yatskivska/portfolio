@@ -1,4 +1,4 @@
-[Back to Main Page](./)
+[Back to Main Page](../../README.md)
 
 # Classification Tree Technique: Practical Examples
 
@@ -47,5 +47,4 @@ See also:
 * **[Classification Tree Testing](https://olha-yatskivska.github.io/classification-tree.html)** - Summary of the core concepts from ISTQB Advanced Test Analyst.
 * **[Classification Tree Tools](https://olha-yatskivska.github.io/classification-tree-tools.html)** - Links for the most popular tools.
 
-* **[Back to Main Page](./)**
 
