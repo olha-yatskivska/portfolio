@@ -30,14 +30,14 @@
 
 ### Session Results & Defects Logged:
 
-[BUG-01](./BUG-01): [signup] Phone Field UI Inconsistency and Country Code Loss During Browser Autofill
+[BUG-01](../BUG-01): [signup] Phone Field UI Inconsistency and Country Code Loss During Browser Autofill
 
-[BUG-02](./BUG-02): [signup] Phone field attribute fails to match input id, triggering DevTools accessibility error
+[BUG-02](../BUG-02): [signup] Phone field attribute fails to match input id, triggering DevTools accessibility error
 
-[BUG-03](./BUG-03): [signup] Phone number field is configured as a numerical spinbutton instead of a string input
+[BUG-03](../BUG-03): [signup] Phone number field is configured as a numerical spinbutton instead of a string input
 
-[BUG-04](BUG-04): [signup] Phone field placeholder displays unformatted raw digits instead of a spaced mask guide
+[BUG-04](../BUG-04): [signup] Phone field placeholder displays unformatted raw digits instead of a spaced mask guide
 
-[BUG-05](BUG-05): [signup] Missing translation key button.labels.go in interviewTranslationService triggers console errors during component rendering
+[BUG-05](../BUG-05): [signup] Missing translation key button.labels.go in interviewTranslationService triggers console errors during component rendering
 
-Side-Discovery ([BUG-06](./BUG-06) Google Page 1 search result link directs users to an outdated survey without redirecting to the main homepage): While exploring brand search entry points, discovered an indexed legacy survey link pointing to an outdated tenant subdomain, bridging the investigation into [Session 2]([./Test_Charters/Session_2.md).
+Side-Discovery ([BUG-06](../BUG-06) Google Page 1 search result link directs users to an outdated survey without redirecting to the main homepage): While exploring brand search entry points, discovered an indexed legacy survey link pointing to an outdated tenant subdomain, bridging the investigation into [Session 2]([../Test_Charters/Session_2.md).
