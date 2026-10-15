@@ -11,7 +11,7 @@ Here is a quick look at my testing notes from two 20-minute exploratory sessions
 | Bug ID | Title / Summary | Type / Module | Severity | Priority | Status | Detailed Report |
 | :--- | :--- | :--- | :---: | :---: | :---: | :---: |
 | **BUG-01** | [signup] Phone Field UI Inconsistency and Country Code Loss During Browser Autofill | Functional / UX (Registration) | Medium | **P2** | `NEW` | [View Report](./BUG-01) |
-| **BUG-02** | [signup] Phone field <label for> attribute fails to match input id, triggering DevTools accessibility error | Accessibility / DOM (WCAG) | Medium | **P2** | `NEW` | [View Report](./BUG-02) |
+| **BUG-02** | [signup] Phone field `<label for>` attribute fails to match input id, triggering DevTools accessibility error | Accessibility / DOM (WCAG) | Medium | **P2** | `NEW` | [View Report](./BUG-02) |
 | **BUG-03** | [signup] Phone number field is configured as a numerical spinbutton instead of a string input | Architecture / DOM (`<rui>`) | Medium | **P2** | `NEW` | [View Report](./BUG-03) |
 | **BUG-04** | [signup] Phone field placeholder displays unformatted raw digits instead of a spaced mask guide | UI/UX (Input Masking) | Low | **P3** | `NEW` | [View Report](./BUG-04) |
 | **BUG-05** | [signup] Missing translation key button.labels.go in interviewTranslationService triggers console errors during component rendering | i18n/Frontend Localization | Medium | **P2** | `NEW` | [View Report](./BUG-05) |
