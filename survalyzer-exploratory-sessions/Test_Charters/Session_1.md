@@ -40,4 +40,4 @@
 
 [BUG-05](../BUG-05): [signup] Missing translation key button.labels.go in interviewTranslationService triggers console errors during component rendering
 
-Side-Discovery ([BUG-06](../BUG-06) Google Page 1 search result link directs users to an outdated survey without redirecting to the main homepage): While exploring brand search entry points, discovered an indexed legacy survey link pointing to an outdated tenant subdomain, bridging the investigation into [Session 2]([../Test_Charters/Session_2.md).
+Side-Discovery ([BUG-06](../BUG-06) Google Page 1 search result link directs users to an outdated survey without redirecting to the main homepage): While exploring brand search entry points, discovered an indexed legacy survey link pointing to an outdated tenant subdomain, bridging the investigation into [Session 2]([./Session_2.md).
