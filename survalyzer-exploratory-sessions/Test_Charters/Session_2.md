@@ -22,10 +22,10 @@
 ### Session Results & Side-Discoveries:
 
 
-[BUG-06](./BUG-06) Google Page 1 search result link directs users to an outdated survey without redirecting to the main homepage
+[BUG-06](../BUG-06) Google Page 1 search result link directs users to an outdated survey without redirecting to the main homepage
 
-[BUG-07](./BUG-07): Expired Azure SAS tokens (se=2020-12-11) caused 403 Forbidden font asset failures.
+[BUG-07](../BUG-07): Expired Azure SAS tokens (se=2020-12-11) caused 403 Forbidden font asset failures.
 
-[BUG-08](BUG-08): Survey question component exhibited a <label for> attribute mismatch.
+[BUG-08](../BUG-08): Survey question component exhibited a `<label for>` attribute mismatch.
 
-[BUG-09](BUG-09): Input field placeholder displays untranslated Dutch text when English locale is requested.
+[BUG-09](../BUG-09): Input field placeholder displays untranslated Dutch text when English locale is requested.
