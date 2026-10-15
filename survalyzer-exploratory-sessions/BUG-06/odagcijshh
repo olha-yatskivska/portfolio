@@ -1,0 +1,116 @@
+<!doctype html>
+<html translate="no">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="google" content="notranslate"/>
+    <title>Survalyzer - Professional survey</title>
+    <base href="/"/>
+
+    <meta name="description" content="This survey was built with Survalyzer. A high-end survey tool to support market researches, educational and scientific institutions, public institutions and companies."/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <link rel="icon" type="image/png" href="favicon.png"/>
+    <link rel="preconnect" href="https://files.survalyzer.eu" crossorigin=""/>
+    <link rel="dns-prefetch" href="https://files.survalyzer.eu"/>
+    <link rel="preload" as="font" type="font/woff2" crossorigin="" href="https://files.survalyzer.eu/public/dependency/fontawesome-free/v5/webfonts/fa-solid-900.woff2"/>
+
+    <link rel="preload" as="font" type="font/woff2" crossorigin="" href="https://files.survalyzer.eu/public/dependency/devextreme/latest/css/icons/dxicons.woff2"/>
+
+    <link rel="preload" as="font" type="font/woff2" crossorigin="" href="https://files.survalyzer.eu/public/dependency/styleguide/latest/assets/default/fonts/Lato-Regular.woff2"/>
+
+    <link rel="preload" as="font" type="font/woff2" crossorigin="" href="https://files.survalyzer.eu/public/dependency/styleguide/latest/assets/default/fonts/Lato-Bold.woff2"/>
+
+    <link rel="preload" as="font" type="font/woff2" crossorigin="" href="https://files.survalyzer.eu/public/dependency/styleguide/latest/assets/default/fonts/icons.woff2"/>
+    <link rel="stylesheet" type="text/css" href="https://files.survalyzer.eu/public/dependency/fontawesome-free/v5/css/all.min.css"/>
+    <link id="themePoint" rel="stylesheet" type="text/css" href="https://files.survalyzer.eu/public/dependency/devextreme/latest/css/dx.light.css"/>
+    <link rel="stylesheet" type="text/css" href="https://files.survalyzer.eu/public/dependency/styleguide/latest/assets/default/rt-theme.min.css"/>
+    <script nonce="b20hgzso">
+      window.branch = 'master';
+      window.version = '20261008.14';
+    </script>
+    <script nonce="b20hgzso">
+      window['nonce'] = 'b20hgzso';
+      function getTenant() {
+        var tenant = 'research2evolve';
+        return tenant.indexOf('{{') === 0 ? 'survalyzer' : tenant;
+      }
+      function getIsCustomDomain() {
+        var isCustomDomain = 'false';
+        return isCustomDomain === 'true';
+      }
+      window.isNodeJs = 'true' === 'true';
+    </script>
+    <script nonce="b20hgzso" src="https://files.survalyzer.eu/public/dependency/jquery/latest/jquery.min.js"></script>
+    <script nonce="b20hgzso" src="https://files.survalyzer.eu/public/dependency/devextreme/latest/js/dx.runtime.js"></script>
+    <style>
+      .rt-container {
+        position: relative;
+      }
+
+      .processing-layer {
+        position: absolute;
+        background-color: gray;
+        opacity: 0.1;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        z-index: 10000000;
+      }
+
+      .processing-layer.global {
+        position: fixed;
+      }
+
+      .processing-spinner {
+        position: fixed;
+        top: 40%;
+        left: 50%;
+        transform: translateY(-50%);
+        transform: translateX(-50%);
+        z-index: 11000000;
+        animation: cssAnimationProcessingSpinner 0s 2s forwards;
+        visibility: hidden;
+      }
+
+      @keyframes cssAnimationProcessingSpinner {
+        to {
+          visibility: visible;
+        }
+      }
+
+      .app-version {
+        opacity: 0.8;
+        font-size: 0.6rem;
+        padding-top: 0.3rem;
+        position: absolute;
+        top: 0;
+        right: 0;
+        color: black;
+        z-index: 999999999;
+      }
+
+      .app-version-warning {
+        background-color: #fde2a6;
+        color: #444443;
+        font-size: 1rem;
+        padding-top: 0.2rem;
+        padding-bottom: 0.2rem;
+        padding-left: 3rem;
+        padding-right: 1rem;
+        opacity: 1;
+      }
+
+      .app-version-warning:before {
+        margin-left: -2.1rem;
+        font-family: 'Font Awesome 5 Free';
+        font-weight: 900;
+        content: '\f06a';
+        padding-right: 0.5rem;
+      }
+    </style>
+  </head>
+
+  <body>
+    <app-root id="app-root"></app-root><script nonce="b20hgzso" src="polyfills-LVNOU2XZ.js" type="module"></script><script nonce="b20hgzso" src="scripts-O6Z7X7LZ.js" defer></script><script nonce="b20hgzso" src="main-LVMEV4A2.js" type="module"></script></body>
+</html>

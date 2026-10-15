@@ -1,0 +1,17 @@
+curl --url 'https://rvo.survalyzer.eu/api/Interview/StartInterview' \
+  -H 'accept: application/json' \
+  -H 'accept-language: uk,en-US;q=0.9,en;q=0.8,pl;q=0.7' \
+  -H 'content-type: application/json' \
+  -H 'dnt: 1' \
+  -H 'origin: https://rvo.survalyzer.eu' \
+  -H 'priority: u=1, i' \
+  -H 'referer: https://rvo.survalyzer.eu/' \
+  -H 'sec-ch-ua: "Chromium";v="154", "Google Chrome";v="154", "Not A(Brand";v="99"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'tenant: rvo' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36' \
+  --data-raw '{"tenant":"rvo","surveyHash":"jeoqgyqlwd","interviewHash":null,"testMode":false,"language":null,"urlVariables":[],"isPersonal":false,"interviewId":"0077dd28-e607-4431-95cc-ddb96598aa9e"}'
