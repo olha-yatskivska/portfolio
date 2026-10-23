@@ -16,7 +16,7 @@
 
 | Field | Details |
 | :-- | :-- |
-| Severity | ☐ Critical ☐ High ☐ Medium ☑ Low |
+| Severity | ☐ Critical ☐ High ☑ Medium ☐ Low |
 | Priority | ☐ P0 ☐ P1 ☐ P2 ☐ P3 | (To be assigned by BA/PO)
 | Type | ☑  Functional ☐ Performance ☐ UI/UX ☐ Security ☑ Documentation |
 | Status | ☑ New ☐ Assigned ☐ In Progress ☐ Fixed ☐ Verified ☐ Closed |
@@ -32,7 +32,7 @@
 | Device Type:  |           Desktop |
 | Application Version: |    v1.0.0 |
 | Build Number:  |          apidoc 0.25.0 |
-| Test Environment:  |      ☑ Dev ☑ QA ☐ Staging ☐ Production |
+| Test Environment:  |      ☐ Dev ☐ QA ☐ Staging ☑ Production |
 | Network:       |          WiFi |
 
 ---
