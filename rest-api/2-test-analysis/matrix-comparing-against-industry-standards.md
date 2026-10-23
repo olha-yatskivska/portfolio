@@ -2,7 +2,7 @@
 
 | Endpoint / Suite  | Scenario                                   | Expected Result according to the code|  Expected result according to the best practices standard                           | 
 |-------------------|--------------------------------------------|--------------------------------------|------------------------------------------------------------------------------------ |
-| System (Root)     | Ping the server (/ping)                    | 201 Created                          | 200 OK/204 No content  [REQ-BUG-01](./REQ-BUG-01)                                                             |
+| System (Root)     | Ping the server (/ping)                    | 201 Created                          | 200 OK/204 No content  [REQ-BUG-01](./bug-reports/REQ-BUG-01.md)                                                             |
 | System (Root)     | Request an invalid path (/foo/bar)         | 404 Not Found                        | 404 Not Found                                                                       |
 | GET /booking      | Request all bookings                       | 200 OK, returns list of booking IDs  | 200 OK (if authorized) or 401/403 (if unauthorized/invalid token) Bug report RE-001 |
 | GET /booking      | Filter by firstname                        | 200 OK, returns matching IDs         | 200 OK (if authorized) or 401/403 (if unauthorized/invalid token) Bug report RE-001 |
