@@ -5,7 +5,7 @@
 | Field | Details |
 | :-- | :-- |
 | Bug ID | REQ-BUG-01 |
-| Title/Summary | Ping HealthCheck endpoint docummentation displays HTTP status 201 Created under Success 200 section|
+| Title/Summary | Ping HealthCheck endpoint documentation displays HTTP status 201 Created under Success 200 section|
 | Date Reported | 11/10/2026 |
 | Reported By | Yatskivska |
 | Assigned To | BA/PM |
@@ -16,7 +16,7 @@
 
 | Field | Details |
 | :-- | :-- |
-| Severity | ☐ Critical ☐ High ☐ Medium ☐ Low |
+| Severity | ☐ Critical ☐ High ☑ Medium ☐ Low |
 | Priority | ☐ P0 ☐ P1 ☐ P2 ☐ P3 |
 | Type | ☐  Functional ☐ Performance ☐ UI/UX ☐ Security ☑ Documentation |
 | Status | ☑ New ☐ Assigned ☐ In Progress ☐ Fixed ☐ Verified ☐ Closed |
@@ -32,7 +32,7 @@
 | Device Type:  |           Desktop |
 | Application Version: |    v1.0.0 |
 | Build Number:  |          apidoc 0.25.0 |
-| Test Environment:  |      ☑ Dev ☑ QA ☐ Staging ☐ Production |
+| Test Environment:  |      ☐ Dev ☐ QA ☐ Staging ☑ Production |
 | Network:       |          WiFi |
 
 ---
