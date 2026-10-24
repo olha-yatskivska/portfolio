@@ -5,7 +5,7 @@
 | Field | Details |
 | :-- | :-- |
 | Bug ID | REQ-BUG-04 |
-| Title/Summary | [SEC/DOC] Missing Property-Level Authorization on GET /booking: Sensitive PII (`firstname`/`lastname`) Exposed Without Authentication |
+| Title/Summary | [SEC/DOC] Missing Property-Level Authorization on `GET/booking`: Sensitive PII (`firstname`/`lastname`) Exposed Without Authentication |
 | Date Reported | 23/10/2026 |
 | Reported By | Yatskivska |
 | Assigned To | BA/PM |
