@@ -122,7 +122,7 @@ Root Cause (if known): Missing property-level authorization filters and Role-Bas
 
 ### Links & Traceability:
 
-* Requirement ID: API Security Specs - Data Protection & Role-Based Access Control
+* Requirement ID: N/A
 * Vulnerability Type: OWASP API3:2023 - Broken Object Property Level Authorization (BOPLA)
 * Regression Info: No
 * Related Issues: 
