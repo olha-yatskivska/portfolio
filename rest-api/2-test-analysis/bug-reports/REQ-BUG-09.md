@@ -5,7 +5,7 @@
 | Field | Details |
 | :-- | :-- |
 | Bug ID | REQ-BUG-09 |
-| Title/Summary | [API/SEC] `PUT/booking/{id}` returns `403 Forbidden` instead of `401 Unauthorized` when an invalid authentication token is provided |
+| Title/Summary | [API/SEC] [PUT/booking/{id}] returns `403 Forbidden` instead of `401 Unauthorized` when an invalid authentication token is provided |
 | Date Reported | 24/10/2026 |
 | Reported By | Yatskivska |
 | Assigned To | BA/PM |
