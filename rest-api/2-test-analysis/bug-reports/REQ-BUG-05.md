@@ -5,7 +5,7 @@
 | Field | Details |
 | :-- | :-- |
 | Bug ID | REQ-BUG-05 |
-| Title/Summary | [API/DOC/FUN] Missing input validation for date filters resulting in `500 Internal Server Error` instead of `400 Bad Request` |
+| Title/Summary | [API/DOC/FUN] [GET/booking] Missing input validation for date filters resulting in `500 Internal Server Error` instead of `400 Bad Request` |
 | Date Reported | 24/10/2026 |
 | Reported By | Yatskivska |
 | Assigned To | BA/PM |
