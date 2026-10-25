@@ -1,0 +1,15 @@
+| Bug ID | Title / Summary | Type / Module | Severity | Priority | Status | Detailed Report |
+| :--- | :--- | :--- | :---: | :---: | :---: | :---: |
+| **REQ-BUG-01** | [API/DOC] Ping HealthCheck endpoint documentation displays HTTP status `201 Created` under Success 200 section  | API Documentation | Medium | **P2** | `NEW` | [View Report](./REQ-BUG-01.md) |
+| **REQ-BUG-02** | [API/DOC] DeleteBooking endpoint documentation displays HTTP status `201 Created` under Success 200 section | API Documentation | Medium | **P2** | `NEW` | [View Report](./REQ-BUG-02.md) |
+| **REQ-BUG-03** | [API/DOC] Ambiguous error handling: Missing expected failure schemas and HTTP status codes | API Documentation | High | **P1** | `NEW` | [View Report](./REQ-BUG-03.md) |
+| **REQ-BUG-04** | [SEC/DOC] Missing Property-Level Authorization on GET/booking: Sensitive PII (`firstname`/`lastname`) Exposed Without Authentication | Security, API Documentation | Critical | **P0** | `NEW` | [View Report](./REQ-BUG-04.md) |
+| **REQ-BUG-05** | [API/DOC/FUN] [GET/booking] Missing input validation for date filters resulting in `500 Internal Server Error` instead of `400 Bad Request` | API Documentation, Functional  | High | **P1** | `NEW` | [View Report](./REQ-BUG-05.md) |
+| **REQ-BUG-06** | [API/DOC/FUN] [POST/booking] returns non-standard `418 I'm a Teapot` instead of `400 Bad Request`/`406 Not Acceptable` when invalid Accept header is provided | API Documentation, Functional  | Medium | **P2** | `NEW` | [View Report](./REQ-BUG-06.md) |
+| **REQ-BUG-07** | [API/SEC] [POST/auth] returns `200 OK` with `"Bad credentials"` payload on failed authentication instead of `401 Unauthorized` | API, Security | High | **P1** | `NEW` | [View Report](./REQ-BUG-07.md) |
+| **REQ-BUG-08** | [API/SEC] [PUT/booking/{id}] returns `403 Forbidden` instead of `401 Unauthorized` when authentication token is missing | API, Security| Medium | **P2** | `NEW` | [View Report](./REQ-BUG-08.md) |
+| **REQ-BUG-09** | [API/SEC] [PUT/booking/{id}] returns `403 Forbidden` instead of `401 Unauthorized` when an invalid authentication token is provided | API, Security | Medium | **P2** | `NEW` | [View Report](./REQ-BUG-09.md) |
+| **REQ-BUG-10** | [API/SEC] [PUT/booking/{id}] returns `405 Method Not Allowed` when updating a non-existent booking ID instead of `404 Not Found` or `401/403` | API, Security | Medium | **P2** | `NEW` | [View Report](./REQ-BUG-10.md) |
+| **REQ-BUG-11** | [API/SEC] [DELETE/booking/{id}] returns `403 Forbidden` instead of `401 Unauthorized` when authentication token is missing | API, Security | Medium | **P2** | `NEW` | [View Report](./REQ-BUG-11.md) |
+| **REQ-BUG-12** | [API/SEC] [DELETE/booking/{id}] returns `403 Forbidden` instead of `401 Unauthorized` when an invalid authentication token is provided | API, Security | Medium | **P2** | `NEW` | [View Report](./REQ-BUG-12.md) |
+| **REQ-BUG-13** |  [API/SEC] [DELETE/booking/{id}] returns `405 Method Not Allowed` when deleting a non-existent booking ID instead of `404 Not Found` or `401/403`  |  API, Security | Medium | **P2** | `NEW` | [View Report](./REQ-BUG-13.md) |
