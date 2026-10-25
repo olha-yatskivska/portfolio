@@ -5,7 +5,7 @@
 | Field | Details |
 | :-- | :-- |
 | Bug ID | REQ-BUG-07 |
-| Title/Summary | [API/SEC] `POST/auth` returns `200 OK` with `"Bad credentials"` payload on failed authentication instead of `401 Unauthorized` |
+| Title/Summary | [API/SEC] [POST/auth] returns `200 OK` with `"Bad credentials"` payload on failed authentication instead of `401 Unauthorized` |
 | Date Reported | 24/10/2026 |
 | Reported By | Yatskivska |
 | Assigned To | BA/PM |
