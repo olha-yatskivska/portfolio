@@ -5,7 +5,7 @@
 | Field | Details |
 | :-- | :-- |
 | Bug ID | REQ-BUG-02 |
-| Title/Summary | [DOC] DeleteBooking endpoint documentation displays HTTP status `201 Created` under Success 200 section |
+| Title/Summary | [API-DOC] DeleteBooking endpoint documentation displays HTTP status `201 Created` under Success 200 section |
 | Date Reported | 11/10/2026 |
 | Reported By | Yatskivska |
 | Assigned To | BA/PM |
