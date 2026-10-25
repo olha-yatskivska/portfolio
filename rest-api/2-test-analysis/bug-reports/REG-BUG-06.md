@@ -5,7 +5,7 @@
 | Field | Details |
 | :-- | :-- |
 | Bug ID | REQ-BUG-06 |
-| Title/Summary | [API/DOC/FUN] `POST/booking` returns non-standard `418 I'm a Teapot` instead of `400 Bad Request`/`406 Not Acceptable` when invalid `Accept` header is provided |
+| Title/Summary | [API/DOC/FUN] [POST/booking] returns non-standard `418 I'm a Teapot` instead of `400 Bad Request`/`406 Not Acceptable` when invalid `Accept` header is provided |
 | Date Reported | 24/10/2026 |
 | Reported By | Yatskivska |
 | Assigned To | BA/PM |
