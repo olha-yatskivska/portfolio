@@ -5,7 +5,7 @@
 | Field | Details |
 | :-- | :-- |
 | Bug ID | REQ-BUG-08 |
-| Title/Summary | [API/SEC] `PUT/booking/{id}` returns `403 Forbidden` instead of `401 Unauthorized` when authentication token is missing |
+| Title/Summary | [API/SEC] [PUT/booking/{id] returns `403 Forbidden` instead of `401 Unauthorized` when authentication token is missing |
 | Date Reported | 24/10/2026 |
 | Reported By | Yatskivska |
 | Assigned To | BA/PM |
