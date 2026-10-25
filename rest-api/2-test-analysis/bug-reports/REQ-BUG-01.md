@@ -5,7 +5,7 @@
 | Field | Details |
 | :-- | :-- |
 | Bug ID | REQ-BUG-01 |
-| Title/Summary | Ping HealthCheck endpoint documentation displays HTTP status 201 Created under Success 200 section|
+| Title/Summary | [DOC] Ping HealthCheck endpoint documentation displays HTTP status `201 Created` under Success 200 section |
 | Date Reported | 11/10/2026 |
 | Reported By | Yatskivska |
 | Assigned To | BA/PM |
@@ -17,7 +17,7 @@
 | Field | Details |
 | :-- | :-- |
 | Severity | ☐ Critical ☐ High ☑ Medium ☐ Low |
-| Priority | ☐ P0 ☐ P1 ☐ P2 ☐ P3 |
+| Priority | ☐ P0 ☐ P1 ☑ P2 ☐ P3 |
 | Type | ☐  Functional ☐ Performance ☐ UI/UX ☐ Security ☑ Documentation |
 | Status | ☑ New ☐ Assigned ☐ In Progress ☐ Fixed ☐ Verified ☐ Closed |
 
@@ -41,11 +41,11 @@
 
 #### Brief Description
 
-The ```GET /ping``` API documentation specifies a "Success 200" response, but the documented sample response block incorrectly displays ```HTTP/1.1 201 Created```
+The `GET /ping` API documentation specifies a "Success 200" response, but the documented sample response block incorrectly displays `HTTP/1.1 201 Created`
 
 #### Detailed Description
 
-In the Restful-Booker API documentation under the **Ping - HealthCheck** section, the section header and field table indicate a standard ```Success 200``` response. However, the code snippet example for the response displays ```HTTP/1.1 201 Created```. Furthermore, the description field labels "OK" as a "Default HTTP 201 response", introducing conflicting HTTP status codes.
+In the Restful-Booker API documentation under the **Ping - HealthCheck** section, the section header and field table indicate a standard `Success 200` response. However, the code snippet example for the response displays `HTTP/1.1 201 Created`. Furthermore, the description field labels `"OK"` as a `"Default HTTP 201 response"`, introducing conflicting HTTP status codes.
 
 ---
 
@@ -74,13 +74,13 @@ Reproducibility:
 
 ## 6. Expected Result
 
-* Under the Success 200 section, the response example should display ```HTTP/1.1 200 OK```, matching the status header and HTTP standard for health check endpoints.
+* Under the Success 200 section, the response example should display `HTTP/1.1 200 OK`, matching the status header and HTTP standard for health check endpoints.
 
 ---
 
 ## 7. Actual Result
 
-* The section header reads Success 200, but the description states *"Default HTTP 201 response"* and the sample response box shows ```HTTP/1.1 201 Created```.
+* The section header reads Success 200, but the description states *"Default HTTP 201 response"* and the sample response box shows `HTTP/1.1 201 Created`.
 
 ---
 
@@ -118,8 +118,8 @@ Root Cause (if known): Likely a copy-paste error or misconfiguration in the apid
 
 * Requirement ID: API Doc Specification - HealthCheck Endpoint
 * Regression Info: No
-* Related Issues: [SCH-BUG-01]()
-* Notes: Standard health check (GET /ping) endpoints should return 200 OK.
+* Related Issues: 
+* Notes: Standard health check (`GET/ping`) endpoints should return `200 OK`.
 
 ---
 
