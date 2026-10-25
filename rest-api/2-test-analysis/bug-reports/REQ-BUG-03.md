@@ -17,7 +17,7 @@
 | Field | Details |
 | :-- | :-- |
 | Severity | ☐ Critical ☑  High ☐ Medium  ☐ Low |
-| Priority | ☐ P0 ☐ P1 ☐ P2 ☐ P3 | (To be assigned by BA/PO) |
+| Priority | ☐ P0 ☐ P1 ☑ P2 ☐ P3 | (To be assigned by BA/PO) |
 | Type | ☑  Functional ☐ Performance ☐ UI/UX ☐ Security ☑ Documentation |
 | Status | ☑ New ☐ Assigned ☐ In Progress ☐ Fixed ☐ Verified ☐ Closed |
 
