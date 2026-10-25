@@ -5,7 +5,7 @@
 | Field | Details |
 | :-- | :-- |
 | Bug ID | REQ-BUG-03 |
-| Title/Summary | [API-DOC] Ambiguous error handling: Missing expected failure schemas and HTTP status codes |
+| Title/Summary | [API/DOC] Ambiguous error handling: Missing expected failure schemas and HTTP status codes |
 | Date Reported | 11/10/2026 |
 | Reported By | Yatskivska |
 | Assigned To | BA/PM |
